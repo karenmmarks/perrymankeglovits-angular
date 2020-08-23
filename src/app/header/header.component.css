@@ -1,0 +1,149 @@
+#loggedInUserName li {
+    color: #777 !important;
+
+}
+.brand a:hover {
+        text-decoration: none;
+    }
+
+.img {
+        padding: 10px;
+}
+
+.form-control {
+    width: 25%;
+   
+}
+.rightbut {
+    float: right;
+}
+
+.action_photo_a{
+    margin:10px;
+}
+.arthur ul, li{
+    font-size: 1.25em;
+    margin-left: 10px;
+    padding-left: 20px;
+    list-style: none;
+}
+
+td {
+    padding-left: 6px;
+}
+
+.modal-backdrop {
+    z-index: 41020 !important;
+}
+
+.brand {
+    display: inherit;
+    margin: 0;
+    padding: 8px 2px 8px;
+    font-family: /*"Josefin Slab",*/"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*text-shadow: 1px 1px 2px rgba(0,0,0,0.5); text-align: center; font-size: 5em;*/
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    color: #224f77; /*337ab7*/
+}
+.pksubhead {
+    margin: -14px 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #DD3903;
+    font-size: 18px;
+}
+
+
+
+/*------------------------RESPONSIVE CSS--------------------------*/
+@media screen and (min-width:320px) {
+    .brand {
+        padding: 8px 2px 8px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .logo {
+        width: 30px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        padding: 8px 2px 8px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .logo {
+        width: 40px;
+    }
+
+    .plainheader {
+        background: none;
+    }
+
+
+section {
+    padding-top: 450px; 
+    margin-top: -450px;
+}
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.94);
+    }
+
+    .nav>li>a {
+        padding: 15px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .logo {
+        width: 45px;
+    }
+}
