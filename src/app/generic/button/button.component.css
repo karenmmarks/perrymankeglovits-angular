@@ -1,0 +1,19 @@
+.btn-primary { 
+  background: #337ab7;
+  border: #337ab7; 
+  box-shadow: 2px 2px #888888;
+}
+
+.btn-primary:hover {
+  background-color: #275d8b;
+}
+
+.btn-secondary { 
+  background: #DD3903;
+  border: #DD3903; 
+  box-shadow: 2px 2px #888888;
+}
+
+.btn-secondary:hover {
+  background-color:  #b02e03;
+}
